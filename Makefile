@@ -76,3 +76,9 @@ inputs/oakland_committees.csv:
 
 run:
 	bundle exec ruby server.rb
+
+jekyll-build:
+	JEKYLL_ENV=production bundle exec jekyll build
+
+jekyll-serve:
+	bundle exec jekyll serve
