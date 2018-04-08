@@ -5,7 +5,8 @@ RUN apt-get install --yes \
   build-essential \
   git \
   libpython-dev \
-  ruby-dev
+  ruby-bundler \
+  ruby-dev 
 
 CMD \
   git --version; \
